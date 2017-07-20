@@ -21,11 +21,11 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * `-----------------------------------------------------------------'
      */
     KEYMAP(
-        ESC, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC, NO,  INS,\
-        TAB,    Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,   DEL, \
-        CAPS,    A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,\
-        LSFT,  NO,  Z,   X,   C,   V,   B,   N,   M,   COMM, DOT, SLSH, RSFT,NO, UP,\
-        LCTL,LGUI,LALT,NO,      SPC,                     RALT,RCTL, FN0, LEFT, DOWN, RGHT),
+        ESC,  1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC, NO,  PSCR,\
+        TAB,  Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,      DEL, \
+        FN0,  A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,\
+        LSFT, NO,  Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,RSFT,FN0, UP,\
+        LCTL,LGUI,LALT,NO,      SPC,                  RALT,APP, RCTL,LEFT,DOWN,RGHT),
     /* Keymap 1: FN Layer
      * ,----------------------------------------------------------.  ,---.
      * |  `| F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Delete|  |INS|
@@ -40,11 +40,11 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * `-----------------------------------------------------------------'
      */
     KEYMAP(
-        GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL, TRNS, TRNS,\
-        TRNS,TRNS,UP,  TRNS,TRNS,TRNS,CALC,TRNS,INS, TRNS,PSCR,SLCK,PAUS,TRNS,      TRNS, \
-        TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,HOME,PGUP,     TRNS, \
-        TRNS,NO,  TRNS,APP, FN1, FN2, FN3, VOLD,VOLU,MUTE,END, PGDN,TRNS,NO,  TRNS, \
-        TRNS,TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS)
+        GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL, TRNS, PGUP,\
+        TRNS,TRNS,UP,  TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,      PGDN, \
+        TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS, \
+        TRNS,NO,  TRNS,TRNS,FN1, FN2, FN3, VOLD,VOLU,MUTE,TRNS,TRNS,TRNS,TRNS,PGUP, \
+        TRNS,TRNS,TRNS,TRNS,          TRNS,               TRNS,TRNS,TRNS,HOME,PGDN, END)
 };
 
 /*
