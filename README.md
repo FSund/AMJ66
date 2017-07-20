@@ -8,7 +8,7 @@ Install the needed dependencies
     sudo apt-get install -y make gcc-avr avr-libc binutils-avr dfu-programmer
     sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib dfu-util
 
-Clone the repository, including submodules (requires Git  1.9
+Clone the repository, including submodules (requires Git 1.9 or later)
 
     git clone --recursive https://github.com/FSund/AMJ66.git
 
